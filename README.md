@@ -2,12 +2,12 @@
 A personal repo documenting my progress of learning Assembly Language Programming. This repo serves as a collection of notes, practice code, and projects that explore low-level programming concepts.
 
 <h2>Repo Structure</h2>
---> notes/
---> examples/
---> exercises/
---> projects/
---> resources/
---> README.md
+--> notes/     <br>
+--> examples/  <br>
+--> exercises/ <br>  
+--> projects/  <br>
+--> resources/ <br>
+--> README.md 
 
 <h2>Goals</h2>
 1. Develope an intuitive understanding of how computers execute instructions
