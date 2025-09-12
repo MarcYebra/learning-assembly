@@ -1,0 +1,16 @@
+Machine Language refers to the numbers transferred into the computer's memory. 
+
+Assembly Language allows us to use symbolic names for operations and represent actions with names to store in memory locations.
+
+In summary, the Assembly Language simply acts as a symbolic communications style for Machine Language. It would be very time consuming and difficult
+for programmers to write entire programs in Machine Langauge. There would be more errors, and would be difficult for other programmers to understand,
+therefore, Assembly Language introduces a starting solution. 
+To be even more technical, the true machine language is not what we call it (with numbers), the real machine language consists of voltages, currents, etc.
+
+Wether you refer to Machine Language or Assembly Language, all of the calculations performed by these languages are performed in the CPU or the Central Processing Unit. 
+The CPU is organized into two parts:
+    1. Arithmetic and Logic
+    2. Control Unit
+
+The Arithmetic and Logic part performs computations, while the Control Unit fetches info and stores info into the memory unit, and tells the Arithmetic and Logic part and
+I/O devices which operations to perform.

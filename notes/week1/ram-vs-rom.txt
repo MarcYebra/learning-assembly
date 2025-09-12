@@ -1,0 +1,8 @@
+Random Access Memory (RAM) and Read Only Memory (ROM) are the two primary memory types. 
+
+RAM can be changed as the computer operates and its contents delete when the computer turns off, while ROM is permanent.
+
+ROM is for standard data and basic parts of the computer's OS. When the CPU starts up, it always boots with a fixed address in the IP. The start-up location
+is an address in the ROM. Programs in the ROM lie between hardware and software and is called Firmware. 
+
+Firmware is a type of software permanently stored in the ROM to provide low-level control for the hardware. 
