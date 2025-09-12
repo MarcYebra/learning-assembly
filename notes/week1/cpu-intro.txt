@@ -1,0 +1,10 @@
+Central Processing Unit (CPU) is responsible for performing computations within the machine's hardware. The CPU is usually found near the center of a motherboard
+and is shaped in a square. 
+
+CPU's utilize registers to temporarily store information, intermediate computation results, and more. Registers can be seen as a special (small) fast memory.
+
+The basic process a CPU follows to run a program is referred to as the Fetch-Execute Cycle which can be broken down to three steps:
+    1. Fetch (CPU reads the next instruction from memory)
+    2. Decode (control unit interprets the instructions)
+    3. Execute (perform a calculuation, move data, etc.)
+
