@@ -1,6 +1,22 @@
 Machine Language refers to the numbers transferred into the computer's memory. 
 
-Assembly Language allows us to use symbolic names for operations and represent actions with names to store in memory locations.
+Assembly Language allows us to use symbolic names for operations and represent actions with names to store in memory locations. Learning the Assembly Programming Language helps 
+you not only learn the language itself, but also the deeper connections between the hardware and software and how they both function together in order to run a machine.
+The assembly programming language is primarily used for communicating with the OS, accessing hardware, optimizing programs to improve runtime execution.
+
+
+Here is an example of Assembly Language being converted (or compiled) into Machine Language:
+Assume we have this English command: "Display the sum of A times B plus C."
+Down below, we will represent this English command in Assembly, then show it compiled into Machine Language:
+
+Assembly Language      |     Machine Language 
+_______________________|______________________                        
+1. mov eax,A           |     1. A1 00000000                                               
+2. mul B               |     2. F7 25 00000004                                            
+3. add eax,C           |     3. 03 05 00000008
+4. call WriteInt       |     4. E8 00500000
+
+
 
 In summary, the Assembly Language simply acts as a symbolic communications style for Machine Language. It would be very time consuming and difficult
 for programmers to write entire programs in Machine Langauge. There would be more errors, and would be difficult for other programmers to understand,
@@ -14,3 +30,7 @@ The CPU is organized into two parts:
 
 The Arithmetic and Logic part performs computations, while the Control Unit fetches info and stores info into the memory unit, and tells the Arithmetic and Logic part and
 I/O devices which operations to perform.
+
+
+
+

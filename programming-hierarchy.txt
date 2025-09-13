@@ -1,0 +1,7 @@
+Level 4 : High-level Language
+
+Level 3 : Assembly Language
+
+Level 2 : Instruction Set Architecture (ISA)
+
+Level 1 : Digital Logic 
