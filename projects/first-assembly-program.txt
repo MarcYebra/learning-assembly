@@ -1,0 +1,34 @@
+; File Name: MYBox.asm
+; Written By: Marc Yebra
+; Revision History
+; Date:      Revised By:       Action:
+;---------------------------------------------------------------------------------
+; 09/27/25    MY              Initial file and version was created on paper first
+; 10/2/25     MY              Combined into a single variable using DUP and adjusted spacing 
+
+.MODEL SMALL
+.STACK 100h
+.DATA
+
+box DB 5 DUP('*'), ' Assembly Programming ', 5 DUP('*'), 0Dh,0Ah 
+	DB '*', 30 DUP(' '), '*', 0Dh,0Ah 
+	DB '*', 30 DUP(' '), '*', 0Dh,0Ah
+	DB '*', 4 DUP(' '), ' Assignment 2 is done!', 4 DUP(' '), '*', 0Dh,0Ah 
+	DB '*', 30 DUP(' '), '*', 0Dh,0Ah 
+	DB '*', 30 DUP(' '), '*', 0Dh,0Ah
+	DB 32 DUP('*'), 0Dh,0Ah 
+	DB '$'
+
+.CODE
+MAIN PROC
+	MOV AX, @DATA
+	MOV DS, AX
+	 
+	MOV DX, OFFSET box
+	MOV AH, 9
+	INT 21h
+	
+	MOV AH, 4Ch
+	INT 21h
+MAIN ENDP
+END MAIN
