@@ -1,0 +1,11 @@
+Introduction: How Assembly Language Works
+
+Assembly language is a low-level programming language that provides a direct way to communicate with a computer’s hardware. Unlike high-level languages such as Python or Java,
+assembly language is closely tied to the computer’s architecture and uses symbolic instructions, called mnemonics, to represent the machine code instructions executed by the CPU. 
+Each assembly instruction typically corresponds to one machine operation, such as moving data between registers, performing arithmetic, or controlling program flow.
+
+When a programmer writes assembly code, it must be translated into machine code using an assembler, which converts the human-readable mnemonics (like MOV, ADD, or JMP) into binary 
+instructions that the CPU can execute. This process gives programmers precise control over how hardware resources—such as memory, registers, and input/output devices—are managed.
+
+Although assembly language is harder to write and read compared to high-level languages, it’s valuable for understanding how computers work internally. It’s often used in embedded 
+systems, operating system kernels, and performance-critical applications, where efficiency and direct hardware manipulation are essential.
