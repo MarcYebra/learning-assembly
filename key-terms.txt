@@ -1,0 +1,29 @@
+Assembly Language — human-readable form of machine instructions
+Machine Code — binary instructions executed by CPU
+ISA (Instruction Set Architecture) — defined set of supported CPU instructions
+Opcode — part of instruction specifying the operation
+Operand — data used by an instruction
+Register — small fast CPU storage (e.g. EAX, RSP)
+Stack — LIFO memory region for calls and locals
+Heap — memory for dynamic allocation
+Immediate — literal value inside an instruction
+Addressing Mode — method of locating operands (register, memory, immediate etc.)
+Instruction Pointer (IP/EIP/RIP) — holds address of next instruction
+Flags Register — holds CPU state flags (zero, carry etc.)
+Label — named location in code used for jumps
+Jump/Branch — instruction changing control flow (JMP, JE…)
+Call — invokes subroutine
+RET — returns from subroutine
+Stack Pointer (SP/ESP/RSP) — tracks top of stack
+Base Pointer (BP/EBP/RBP) — anchors current stack frame
+Stack Frame — memory region for one function call
+Calling Convention — rules for passing args & returns
+Prologue — setup code of a function
+Epilogue — teardown code of a function
+Assembler — translates assembly to machine code
+Linker — combines object files to executable
+Object File — compiled but not linked code
+Disassembler — converts machine code back to assembly
+System Call — request to OS kernel from user program
+Pipeline — overlapping execution of instructions
+Segmentation — memory divided into segments (x86 concept)
